@@ -13,7 +13,7 @@ services:
     build: ./client
     container_name: react-client
     ports:
-      - "5174:3000"
+      - "3000:3000"
     networks:
       - fullstack-net
     depends_on:
